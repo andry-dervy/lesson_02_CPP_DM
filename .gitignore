@@ -1,0 +1,5 @@
+build-lesson_02_CPP_DM-Desktop-Debug/*.stash
+build-lesson_02_CPP_DM-Desktop-Debug/*.o
+build-lesson_02_CPP_DM-Desktop-Debug/lesson_02_CPP_DM
+build-lesson_02_CPP_DM-Desktop-Debug/Makefile
+lesson_02_CPP_DM/*.user
