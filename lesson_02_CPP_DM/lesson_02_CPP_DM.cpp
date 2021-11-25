@@ -86,7 +86,7 @@ void SortPointers(vector<shared_ptr<T>> &v)
 template<typename T>
 void printVector(const vector<shared_ptr<T>> &v)
 {
-  for(auto a: v)
+  for(const auto& a: v)
     cout << *a << " ";
   cout << endl;
 }
@@ -246,7 +246,6 @@ void task_3()
   cnt = 10;
   while(--cnt)
     cout << "Amount of vowels: " << countOfLetters_TwoFor(pTxt) << endl;
-
 }
 
 //----------------------------------------------------------------------------
@@ -256,12 +255,12 @@ int main(int argc, char *argv[])
   QCoreApplication a(argc, argv);
   //--------------------------------------------------------------------------
   // Task 1
-  /*
+  //*
   task_1();
   //*/
   //--------------------------------------------------------------------------
   // Task 2
-  /*
+  //*
   task_2();
   //*/
   //--------------------------------------------------------------------------
